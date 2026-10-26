@@ -1,0 +1,9 @@
+LICENSE
+README.md
+evalscorecard.py
+pyproject.toml
+fultingson_evalscorecard.egg-info/PKG-INFO
+fultingson_evalscorecard.egg-info/SOURCES.txt
+fultingson_evalscorecard.egg-info/dependency_links.txt
+fultingson_evalscorecard.egg-info/entry_points.txt
+fultingson_evalscorecard.egg-info/top_level.txt
