@@ -1,0 +1,32 @@
+[build-system]
+requires = ["setuptools>=61"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "fultingson-evalscorecard"
+version = "0.1.0"
+description = "把多次评测的样本级结果聚合成记分卡，逐指标列出均值、离散度与回归项。"
+readme = "README.md"
+requires-python = ">=3.10"
+license = { file = "LICENSE" }
+authors = [{ name = "fultingson" }]
+keywords = ["evaluation", "benchmark", "llm", "report"]
+classifiers = [
+    "Development Status :: 4 - Beta",
+    "Environment :: Console",
+    "License :: OSI Approved :: MIT License",
+    "Programming Language :: Python :: 3",
+    "Programming Language :: Python :: 3 :: Only",
+    "Topic :: Utilities",
+]
+
+[project.urls]
+Homepage = "https://fultingson.github.io"
+Repository = "https://github.com/fultingson/evalscorecard"
+Issues = "https://github.com/fultingson/evalscorecard/issues"
+
+[project.scripts]
+evalscorecard = "evalscorecard:main"
+
+[tool.setuptools]
+py-modules = ["evalscorecard"]
